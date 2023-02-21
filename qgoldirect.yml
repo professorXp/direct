@@ -8,7 +8,7 @@ info:
     
     Requests should be directed to the appropriate API URL 
 
-    - Staging: https://qgenonlinestaging.com/api/
+    - Staging: https://qgenonlinestaging.com/integration-api/
     - Production: TBD
 
     All API requests must be made over HTTPS as HTTP is not supported. 
@@ -312,7 +312,6 @@ paths:
                     - adverse-media-general
                 client_ref: '1234567890'
                 notes: This is an optional note for your records.
-                is_monitored: true
                 fuzziness: 0.6
                 tags:
                   - String to assign to Tag 1
